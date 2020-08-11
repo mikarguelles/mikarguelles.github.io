@@ -4,10 +4,10 @@
   .page{
     font-family: 'Manrope';
     background: #F7FFF7;
-    width: 210mm;
+    width: 100%;
     height: 297mm;
   }
-  
+
   .top{
     width:100%;
     height: 40mm;
