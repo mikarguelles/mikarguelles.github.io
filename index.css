@@ -18,6 +18,10 @@
     height: 3cm;
     float: right;
     margin: 0.5cm;
+    transition: transform .2s;
+  }
+  .profile_pic:hover{
+    transform: scale(1.5);
   }
   .ed{
     padding-left: 10px;
