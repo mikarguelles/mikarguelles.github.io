@@ -13,46 +13,56 @@
 
 <body>
 
-  <!-- Header -->
   <div class="header">
     <h1>Miguel Argüelles</h1>
     <h4 style="font-weight: normal">Industrial Engineer</h4>
   </div>
 
-  <!-- Navigation Bar -->
+
   <div class="navbar">
     <a href="#Experience">Experience</a>
     <a href="#Education">Education</a>
     <a href="#Training">Training & Courses</a>
     <a href="#Languages">Languages</a>
     <a href="#Skills">Skills</a>
-    <a href="#Projects">Projects</a>
+    <div class="dropdown">
+      <button class="dropbtn">Projects
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#MThesis">Master Thesis</a>
+        <a href="#SR_Robot">Search & Rescue Robot</a>
+        <a href="#Packaging">Packaging</a>
+        <a href="#Stands">Fair Stands</a>
+        <a href="#BThesis">Bachelor Thesis</a>
+      </div>
+    </div>
   </div>
 
-  <!-- The flexible grid (content) -->
+
   <div class="row">
     <div class="side">
 
       <h2>About Me</h2>
-      <div class=""><img class="profile_pic" style="width:90%; margin-left:5%;" src="Profile_pic2.jpeg"></div>
+      <div class=""><img class="profile_pic" style="width:90%; max-width: 400px; margin-left:5%;" src="Media/Profile_pic2.jpeg"></div>
       <p style="padding-left:5%">Graduate Industrial Engineer</p>
-
 
       <h3>Contact</h3>
       <p class="contacto">
-      <div class="fakeimg">
-        <p class="contacto"><a class="contacto" href="https://maps.google.com/?q=Madrid,Spain"><img class="icon" src="location.svg" alt="Phone" height="15px" width="15px" style="margin-right:30px"> Madrid, España</a><br></p>
-        <p class="contacto"><a class="contacto" href="tel:+346........" target="_top"><img class="icon" src="phone.svg" alt="Phone" height="15px" width="15px" style="margin-right:30px"> +34 6.. ... ...</a></p>
-        <p class="contacto"><a class="contacto" href="mailto:ekimargs@gmail.com?" target="_top"><img class="icon" src="mail.svg" alt="Phone" height="15px" width="15px" style="margin-right:30px"> ekimargs@gmail.com</a></p>
-        <p class="contacto"><a class="contacto" href="https://www.linkedin.com/in/miguel-arguelles"><img class="icon" src="linkedin.svg" alt="Phone" height="15px" width="15px" style="margin-right:30px"> Miguel Argüelles</a></p>
+      <div class="zone">
+        <p class="contacto"><a class="contacto" href="https://maps.google.com/?q=Madrid,Spain"><img class="icon" src="Media/location.svg" alt="Phone" height="15px" width="15px" style="margin-right:30px"> Madrid, España</a><br></p>
+        <p class="contacto"><a class="contacto" href="tel:+346........" target="_top"><img class="icon" src="Media/phone.svg" alt="Phone" height="15px" width="15px" style="margin-right:30px"> +34 6.. ... ...</a></p>
+        <p class="contacto"><a class="contacto" href="mailto:ekimargs@gmail.com?" target="_top"><img class="icon" src="Media/mail.svg" alt="Phone" height="15px" width="15px" style="margin-right:30px"> ekimargs@gmail.com</a></p>
+        <p class="contacto"><a class="contacto" href="https://www.linkedin.com/in/miguel-arguelles"><img class="icon" src="Media/linkedin.svg" alt="Phone" height="15px" width="15px" style="margin-right:30px"> Miguel Argüelles</a></p>
       </div>
+
     </div>
 
     <div class="main">
 
 
       <h2 id="Experience">Experience</h2>
-      <div class="fakeimg">
+      <div class="zone">
         <p class="fecha">Jan 2020 - Jun 2020</p>
         <p class="nombre">Research & development project in Automation and Acoustic Engineering</p></br>
         <p class="info">Saint-Gobain Ecophon AB, Hyllinge, Sweden. Department of R&D</p></br>
@@ -70,9 +80,9 @@
 
 
       <h2 id="Education">Education</h2>
-      <div class="fakeimg">
+      <div class="zone">
         <p class="fecha">2019 - 2020</p>
-        <p class="titulo">MSc</p>
+        <p class="titulo">Master</p>
         <p class="nombre">Industrial Engineering and Management</p>
         </br>
         <p class="info">Specialization: Automation & Electronics</p></br>
@@ -80,7 +90,7 @@
         <p class="info">Exchange student at LTH Lund University Sweden</p>
         </br></br>
         <p class="fecha">2018 - 2020</p>
-        <p class="titulo">MSc</p>
+        <p class="titulo">Master</p>
         <p class="nombre">Industrial Engineering and Management</p>
         </br>
         <p class="info">Specialization: Automation & Electronics</p></br>
@@ -97,7 +107,7 @@
       <br>
 
       <h2 id="Training">Training & Courses</h2>
-      <div class="fakeimg">
+      <div class="zone">
         <h4>Student representation</h4>
         <p class="fecha">2015 -­ 2017</p>
         <p class="titulo2">Class president</p>
@@ -133,7 +143,7 @@
       <br>
 
       <h2 id="Languages">Languages</h2>
-      <div class="fakeimg">
+      <div class="zone">
         <table>
           <tr>
             <td class=negrita>Spanish</td>
@@ -153,7 +163,7 @@
 
 
       <h2 id="Skills">Skills</h2>
-      <div class="fakeimg">
+      <div class="zone">
         <table>
           <tr>
             <td class=negrita>Programming</td>
@@ -177,11 +187,72 @@
 
 
       <h2 id="Projects">Projects</h2>
-      <div class="fakeimg">
+      <div class="zone">
+
+        <div class="project" id="MThesis">
+          <p class="fecha">2020</p>
+          <p class="titulo">Master Thesis</p>
+          <p class="nombre">Adaptive room acoustic design</p>
+          <br>
+          <img class="picproject" src="Media/M_thesis.jpeg"></img>
+          <p class="infoproject">dd</p>
+          <img class="picproject" src="Media/M_thesis2.png"></img>
+        </div>
         <br>
+
+        <div class="project" id="SR_Robot">
+          <p class="fecha">2019</p>
+          <p class="titulo2">Search & Rescue Robot</p>
+          <br>
+          <img class="picproject" src="Media/SR_Robot1.jpeg"></img>
+          <p class="infoproject">dd</p>
+          <img class="picproject" src="Media/SR_Robot2.png"></img>
+        </div>
+        <br>
+
+        <div class="project" id="Packaging">
+          <p class="fecha">2019</p>
+          <p class="titulo2">Packaging redesign</p>
+          <p class="nombre2">Refillable solution</p>
+          <br>
+          <img class="picproject" src="Media/Packaging1.png"></img>
+          <p class="infoproject">dd</p>
+          <img class="picproject" src="Media/Packaging3.png"></img>
+          <img class="picproject" src="Media/Packaging2.png"></img>
+        </div>
+        <br>
+
+        <div class="project" id="Stands">
+          <p class="fecha">2019</p>
+          <p class="titulo2">Fair Stands</p>
+          <p class="nombre2">Design and manufacture</p>
+          <br>
+          <img class="picproject" src="Media/INGENIA1.png"></img>
+          <p class="infoproject">dd</p>
+          <img class="picproject" src="Media/INGENIA2.png"></img>
+          <img class="picproject" src="Media/INGENIA3.png"></img>
+          <img class="picproject" src="Media/INGENIA4.png"></img>
+        </div>
+        <br>
+
+        <div class="project" id="BThesis">
+          <p class="fecha">2018</p>
+          <p class="titulo2">Bachelor Thesis</p>
+          <p class="nombre2">Comparison of technologies for soft robotic gippers</p>
+          <br>
+          <img class="picproject" src="Media/B_thesis.jpeg"></img>
+          <p class="infoproject"></p>
+          <img class="picproject" src="Media/TFG1.png"></img>
+          <img class="picproject" src="Media/TFG2.png"></img>
+          <img class="picproject" src="Media/TFG3.png"></img>
+          <img class="picproject" src="Media/TFG4.png"></img>
+        </div>
+        <br>
+
       </div>
       <br>
     </div>
+  </div>
   </div>
 
   <!-- Footer -->
