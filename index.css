@@ -110,6 +110,7 @@ p.titulo {
   font-size: 0.9em;
   font-weight: 400;
   text-align: left;
+  font-weight: bold;
 }
 
 p.nombre {
@@ -120,6 +121,7 @@ p.nombre {
   line-height: 2em;
   font-size: 0.9em;
   text-align: left;
+  font-weight: bold;
 }
 
 p.info {
@@ -129,6 +131,28 @@ p.info {
   padding-left: 60px;
   display: inline;
   font-size: 0.8em;
+  text-align: left;
+}
+
+p.nombre2 {
+  margin: 0px;
+  padding: 0px;
+  padding-left: 2px;
+  display: inline;
+  line-height: 2em;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+p.titulo2 {
+  margin: 0px;
+  padding: 0px;
+  padding-left: 10px;
+  display: inline;
+  color: #245757;
+  line-height: 2em;
+  font-size: 0.9em;
+  font-weight: 400;
   text-align: left;
 }
 
@@ -148,6 +172,7 @@ td {
 
 td.negrita {
   color: #245757;
+  font-weight: bold;
 }
 
 .contacto {
