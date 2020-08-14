@@ -249,17 +249,20 @@ p.contacto_ {
   padding-top: 50px;
 }
 
-.infoproject {
-  width: 45%;
-  float: right;
-  padding: 10px;
-  padding-left: 20px;
-}
-
 .picproject {
   width: 55%;
   padding-left: 50px;
   padding-top: 20px;
   display: inline-block;
   height: auto;
+}
+
+.infoproject {
+  width: 43%;
+  float: right;
+  padding: 40px;
+  margin-left: 2%;
+  text-align: justify;
+  font-size: 0.8em;
+  background-color: #D6D6D6;
 }
