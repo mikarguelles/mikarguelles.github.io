@@ -13,24 +13,42 @@ body {
 p {
   text-align: left;
 }
-h2, h3, h4{
+
+h2, h3, h4 {
   font-weight: normal;
 }
+
+#Projects {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.portfolio{
+  background-color: #333;
+  color: white;
+  text-align: center;
+  width: 100%;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
 .header {
   padding: 30px;
   text-align: center;
   background: #1abc9c;
   color: white;
-  background: rgb(34,193,195);
-  background: linear-gradient(336deg, rgba(34,193,195,1) 0%, rgba(211,45,253,1) 100%);
-
+  background: rgb(34, 193, 195);
+  background: linear-gradient(336deg, rgba(34, 193, 195, 1) 0%, rgba(211, 45, 253, 1) 100%);
 }
-.header_title{
+
+.header_title {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   letter-spacing: 5px;
 }
-.header_subtitle{
+
+.header_subtitle {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
@@ -62,7 +80,6 @@ h2, h3, h4{
 
 .dropdown {
   float: left;
-
 }
 
 .dropdown .dropbtn {
@@ -76,7 +93,7 @@ h2, h3, h4{
   font-weight: inherit;
 }
 
-.dropbtn{
+.dropbtn {
   padding: 20px 50px 20px 50px;
 }
 
@@ -84,8 +101,7 @@ h2, h3, h4{
   background-color: #ddd;
   background: #FAFF00;
   color: black;
-
-  background:#FFE347;
+  background: #FFE347;
   color: black;
 }
 
@@ -106,7 +122,6 @@ h2, h3, h4{
   text-decoration: none;
   display: block;
   text-align: left;
-  
 }
 
 .dropdown-content a:hover {
@@ -142,18 +157,19 @@ h2, h3, h4{
   padding: 20px;
   text-align: left;
   height: auto;
-  background: rgb(222,222,222);
-  background: linear-gradient(87deg, rgba(222,222,222,1) 56%, rgba(241,241,241,1) 100%);
+  background: rgb(222, 222, 222);
+  background: linear-gradient(87deg, rgba(222, 222, 222, 1) 56%, rgba(241, 241, 241, 1) 100%);
 }
 
-div.contacto{
+div.contacto {
   background-color: #EBEBEB;
   width: 100%;
   padding: 20px;
   text-align: left;
   height: auto;
 }
-.contacto_title{
+
+.contacto_title {
   margin-top: 40px;
 }
 
