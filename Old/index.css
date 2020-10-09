@@ -49,6 +49,29 @@ h2, h3, h4 {
   font-weight: normal;
 }
 
+#Projects {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 1.8em;
+  letter-spacing: 4px;
+}
+
+#portfolio{
+padding-top: 20px;
+}
+
+.portfolio{
+  background-color: #333;
+  color: white;
+  text-align: center;
+  width: 100%;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
 .header {
   padding: 30px;
   text-align: center;
@@ -109,7 +132,7 @@ h2, h3, h4 {
 
 .navbar a {
   color: white;
-  padding: 20px 50px 10px 50px;
+  padding: 20px 50px 20px 50px;
   text-decoration: none;
   text-align: center;
   float: left;
@@ -176,8 +199,6 @@ h2, h3, h4 {
   background-color: #CCCCCC;
   padding: 20px;
   margin-bottom: 44px;
-  background: #CCCCCC;
-  background: linear-gradient(180deg, #CCCCCC 20%, white 60%);
 }
 
 .main {
@@ -194,7 +215,7 @@ h2, h3, h4 {
   text-align: left;
   height: auto;
   background: rgb(222, 222, 222);
-  background: linear-gradient(90deg, rgba(222, 222, 222, 1) 50%, rgba(241, 241, 241, 1) 100%);
+  background: linear-gradient(87deg, rgba(222, 222, 222, 1) 56%, rgba(241, 241, 241, 1) 100%);
 }
 
 div.contacto {
@@ -342,10 +363,9 @@ p.contacto_ {
 .project {
   width: 100%;
   height: auto;
+  padding-top: 50px;
   overflow: hidden;
   text-align: center;
-  padding-top: 150px;
-  margin-top: -100px;
 }
 
 .project .fecha, .project .titulo, .project .titulo2, .project .nombre, .project .nombre2{
@@ -355,6 +375,7 @@ p.contacto_ {
 }
 
 .picproject {
+  padding-left: 50px;
   padding-top: 20px;
   display: inline-block;
   height: auto;
@@ -362,8 +383,10 @@ p.contacto_ {
 }
 
 .infoproject {
+  float: left;
   width: 100%;
   padding: 40px;
+  margin-left: 2%;
   text-align: justify;
   font-size: 0.8em;
   background-color: #D6D6D6;
@@ -372,52 +395,16 @@ p.contacto_ {
 
 .project_content{
   height: auto;
-  margin-top: 50px;
-  background-color: #333;
-  padding: 1%;
-  text-align: center;
+  margin-top: 20px;
 }
 
 .project_img{
-  display: inline-block;
-  vertical-align:top;
-  width: 49%;
-  padding: 20px;
-  padding-top: 0px;
+  float: left;
+  width: 50%;
 }
 .project_info{
-  display: inline-block;
-  vertical-align: top;
-  width: 49%;
-  padding: 20px;
-  padding-top: 0px;
-  height:100%;
-}
-
-#Projects {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-size: 1.8em;
-  letter-spacing: 4px;
-}
-
-#portfolio{
-  padding: 0;
-  padding-top: 20px;
-}
-
-.portfolio{
-  background-color: #333;
-  color: white;
-  text-align: center;
-  width: 100%;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-  padding: 1px;
-}
-.project_title{
-
+  float: right;
+  width: 50%;
+  height: 100%;
+  background-color: inherit;
 }
