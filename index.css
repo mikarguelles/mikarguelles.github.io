@@ -1,8 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600&family=Montserrat:wght@100;200;300;400;600&family=Roboto:wght@300;400;500;700&display=swap');
 
+@-webkit-keyframes slideInFromLeft {
+    0%{
+      transform: translateX(-80%);
+      opacity: 0;
+    }
+    100%{
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
 @keyframes slideInFromLeft {
     0%{
       transform: translateX(-80%);
+      opacity: 0;
+    }
+    100%{
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+
+@-webkit-keyframes slideInFromRight {
+    0%{
+      transform: translateX(+80%);
       opacity: 0;
     }
     100%{
@@ -22,6 +43,14 @@
     }
 }
 
+@-webkit-keyframes appear {
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+}
 @keyframes appear {
     0%{
       opacity: 0;
@@ -47,6 +76,11 @@ p {
 
 h2, h3, h4 {
   font-weight: normal;
+}
+
+h2{
+  padding-top: 20px;
+  margin-top: -20px;
 }
 
 .header {
@@ -145,7 +179,7 @@ h2, h3, h4 {
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+  z-index: 3;
   text-align: center;
 }
 
@@ -178,6 +212,12 @@ h2, h3, h4 {
   margin-bottom: 44px;
   background: #CCCCCC;
   background: linear-gradient(180deg, #CCCCCC 20%, white 60%);
+}
+
+.about_me_info{
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: justify;
 }
 
 .main {
@@ -380,14 +420,15 @@ p.contacto_ {
 
 .project_img{
   display: inline-block;
-  vertical-align:top;
+  vertical-align:middle;
   width: 49%;
   padding: 20px;
   padding-top: 0px;
+  height: 100%;
 }
 .project_info{
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
   width: 49%;
   padding: 20px;
   padding-top: 0px;
@@ -417,7 +458,83 @@ p.contacto_ {
   position: -webkit-sticky;
   top: 0;
   padding: 1px;
+  z-index: 2;
 }
 .project_title{
 
+}
+
+
+
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.mySlides1, .mySlides2 {
+  display: none
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 3px 3px 3px;
+}
+.prev {
+  left: 0;
+  border-radius: 3px 3px 3px 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
