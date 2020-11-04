@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: Montserrat;
+}
+
+.header{
+  text-align: center;
+}
+
+h1.title {
+   color: white;
+   background: url(./Media_design/Background2.jpg) no-repeat;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-size: 100% auto;
+   width:100%;
+   font-size: 12vw;
+   font-family: Montserrat;
+   font-weight: 900;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+div.navbar{
+    background: url(./Media_design/Background6.jpg) no-repeat;
+    background-size: 100% auto;
+    padding: 1.5em;
+    text-align: center;
+}
+
+a.navbar{
+  text-decoration: none;
+  color: white;
+  margin-top: 1em;
+  font-weight: 600;
+  padding-left: 5em;
+  font-size: 1.4em;
+
+}
+
+.content{
+  background-color: #1e1d24;
+  text-align: center;
+  padding: 2em;
+}
+
+.project{
+  margin-top: 1em;
+  color: white;
+  background: rgba(0, 0, 0, 0.9);
+  text-align: center;
+}
+
+.project_title{
+  font-size: 4vw;
+  font-family: Montserrat;
+  font-weight: 400;
+  margin: 0px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.project_img{
+ max-height: 700px;
+ max-width: 70%;
+}
